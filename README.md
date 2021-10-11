@@ -37,11 +37,16 @@
   10. 단순, 확장 가등
 
 ### HTTP Method
-  API
-  1. URI -> 리소스를 식별하는게 가장 중요    ex) members -> 회원 자체의 식별 -> 부가적인 부분은 HTTP 메서드가 처리한다.
+  1. URI -> 리소스를 식별하는게 가장 중요   
+  2.  ex) members -> 회원 자체의 식별 -> 부가적인 부분은 HTTP 메서드가 처리한다.
+  
   @ CRUD ===== PGPD
+  
   @ POST => Client -> Server에 요청하면 서버가 메시지로 들어온 데이터 처리  -> 신규 리소스 생성
-  @ GET  => Client -> Server에 전달하고 싶은 데이터 -> 쿼리파라미터, 쿼리스트링을 통해서 전달 (ex) -> /search?q=hello&hi=KO) -> 리소스 조회
+  
+  @ GET  => Client -> Server에 전달하고 싶은 데이터 -> 쿼리파라미터, 쿼리스트링을 통해서 전달 
+  (ex) -> /search?q=hello&hi=KO) -> 리소스 조회
+  
   @ PUT  => 리소스가 존재하면 대체, 없으면 생성 -> 덮어쓰기 생각  -> Client가 리소스를 식별한다. 
  
   #### HTTP METHOD 속성
